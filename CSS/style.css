@@ -1,0 +1,37 @@
+nav {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav .button-collapse i {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav .brand-logo {
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 601px) {
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: 100px;
+    line-height: 100px;
+  }
+}
+
+.navtext {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616161;
+}
