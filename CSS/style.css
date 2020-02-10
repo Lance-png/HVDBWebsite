@@ -56,8 +56,18 @@ h4 {
   color: #8080cc;
 }
 
+h5 {
+  color: #616161;
+  font-size: 19px;
+}
+
 .hvdbcolour {
   color: #8080cc;
+}
+
+.collapsetext {
+  color: #616161;
+  font-size: 15px;
 }
 
 /*Align cards*/
